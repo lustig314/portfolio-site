@@ -1,0 +1,46 @@
+.homeSection {
+  min-height: 100vh;
+  width: 100%;
+  background: url("../../images/homeBackground.jpg") #111111 no-repeat center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeContent {
+  width: 930px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.homeImage {
+  border-radius: 50%;
+  border: 10px solid rgba(255, 255, 255, .15);
+  border-bottom: 10px solid #fdb404;
+}
+
+.homeText {
+  max-width: 536px;
+}
+
+.topTitle {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.bottomTitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 68px;
+  color: #FDB404;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
